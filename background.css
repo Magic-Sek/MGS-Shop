@@ -115,4 +115,26 @@
         border-radius: 15px;
         outline:none;
     }
+ .zoom-wrapper{
+        height: 10px;
+        overflow: ;
+        border-radius: 0px;
+    }
+    .zoom-wrapper button{
+        object-fit:cover ;
+    transition: transform 0.2s;
+    height: 42%;
+    }
+    .zoom-wrapper:hover button{transform: scale(1.5);}
+    .zoom-wrapper{
+        height: 150px;
+        overflow: ;
+        border-radius: 0px;
+    }
+    .zoom-wrapper img{
+        object-fit:cover ;
+    transition: transform 0.2s;
+    height: 20%;
+    }
+    .zoom-wrapper:hover img{transform: scale(1.1);}
    
